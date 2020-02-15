@@ -24,7 +24,7 @@ public abstract class AppDatabase extends RoomDatabase {
         return INSTANCE;
     }
 
-    public abstract Contributor contributorDao();
+    public abstract ContributorDAO contributorDao();
 
     @NonNull
     @Override
